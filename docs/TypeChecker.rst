@@ -376,7 +376,7 @@ has a regular structure. For example, consider the ``Optional`` type::
     case Some(T)
   }
 
-The type of ``Optional<T>.Vone`` is ``Optional<T>``, while the type of
+The type of ``Optional<T>.None`` is ``Optional<T>``, while the type of
 ``Optional<T>.Some`` is ``(T) -> Optional<T>``. In fact, the
 type of a enum element can have one of two forms: it can be ``T0``,
 for a enum element that has no extra data, or it can be ``T2 -> T0``,
